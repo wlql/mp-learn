@@ -9,4 +9,13 @@ public class User {
 	private String email;
 	private Long managerId;
 	private LocalDateTime createTime;
+
+
+	public String getName() {
+		return name;
+	}
+
+	public Integer getAge() {
+		return age;
+	}
 }
